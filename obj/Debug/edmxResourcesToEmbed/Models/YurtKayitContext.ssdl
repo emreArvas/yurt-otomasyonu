@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="yurt_kayit_bilgileriModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="basvuru">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kullanici_id" Type="int" Nullable="false" />
+    <Property Name="onaylandimi" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="isim" Type="varchar(max)" Nullable="false" />
+    <Property Name="soyisim" Type="varchar(max)" Nullable="false" />
+    <Property Name="Tc" Type="char" MaxLength="11" Nullable="false" />
+    <Property Name="gmail" Type="varchar(max)" Nullable="false" />
+    <Property Name="aktivasyon" Type="varchar(max)" />
+    <Property Name="şifre" Type="varchar(max)" Nullable="false" />
+    <Property Name="odaTipi" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="personel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gmail" Type="varchar(max)" Nullable="false" />
+    <Property Name="sifre" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="yurt_kayit_bilgileriModelStoreContainer">
+    <EntitySet Name="basvuru" EntityType="Self.basvuru" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="personel" EntityType="Self.personel" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
