@@ -5,7 +5,16 @@
 Bu proje nesne tabanlı programlama dersi kapsamında yapılmıştır.
 Bu projede amacımız kayıt olan öğrencinin koşulları sağladığı takdirde kaydının onaylanmasıdır.
 
+## Özellikler
 
+- Öğrenci başvuru
+- giriş işlemleri
+- şifremi unuttum kısmında mail adresine kod gönderilir ve kod doğruysa şifre değiştirilir
+- Öğrenci admin tarafından kayıt olma şartlarını yerine getiriyorsa kaydı onaylanır veya iptal edilir
+- Öğrenci kaydının durumunu görüntüleyebilir
+
+
+    
 
 
 
