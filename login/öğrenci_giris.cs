@@ -61,5 +61,12 @@ namespace YurtOtomasyonu1._0.login
         {
 
         }
+
+        private void SFRM_UNTM_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            login.SifremiUnuttum s = new SifremiUnuttum();
+            s.Show();
+            this.Hide();
+        }
     }
 }

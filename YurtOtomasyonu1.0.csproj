@@ -89,17 +89,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="login\Dogrula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\Dogrula.Designer.cs">
+      <DependentUpon>Dogrula.cs</DependentUpon>
+    </Compile>
     <Compile Include="login\ilk_ekran.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login\ilk_ekran.Designer.cs">
       <DependentUpon>ilk_ekran.cs</DependentUpon>
     </Compile>
+    <Compile Include="login\KoduDogrula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\KoduDogrula.Designer.cs">
+      <DependentUpon>KoduDogrula.cs</DependentUpon>
+    </Compile>
     <Compile Include="login\personelGiris.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login\personelGiris.Designer.cs">
       <DependentUpon>personelGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login\SifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\SifremiUnuttum.Designer.cs">
+      <DependentUpon>SifremiUnuttum.cs</DependentUpon>
     </Compile>
     <Compile Include="login\öğrenci_giris.cs">
       <SubType>Form</SubType>
@@ -154,11 +172,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login\Dogrula.resx">
+      <DependentUpon>Dogrula.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login\ilk_ekran.resx">
       <DependentUpon>ilk_ekran.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login\KoduDogrula.resx">
+      <DependentUpon>KoduDogrula.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login\personelGiris.resx">
       <DependentUpon>personelGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\SifremiUnuttum.resx">
+      <DependentUpon>SifremiUnuttum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login\öğrenci_giris.resx">
       <DependentUpon>öğrenci_giris.cs</DependentUpon>

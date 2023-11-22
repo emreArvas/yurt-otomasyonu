@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YurtOtomasyonu1.0.exe" size="51160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YurtOtomasyonu1.0.exe" size="57304">
       <assemblyIdentity name="YurtOtomasyonu1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4Mavo2WYwrEtvkMCXmsazbUvb2MSijL9AZ4c6Skr5uQ=</dsig:DigestValue>
+        <dsig:DigestValue>JjZEnD33CTMGciEbtIk/Px4nqip++kVWYBzqKgn3wdM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

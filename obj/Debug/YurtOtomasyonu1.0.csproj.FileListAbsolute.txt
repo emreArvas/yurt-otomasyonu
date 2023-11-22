@@ -23,3 +23,6 @@ C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\bin\Debug\YurtOto
 C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1.0.exe.manifest
 C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1.0.application
 C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1._0.sayfalar.PersonelAnaSayfa.resources
+C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1._0.login.Dogrula.resources
+C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1._0.login.SifremiUnuttum.resources
+C:\Users\EMRE\source\repos\YurtOtomasyonu1.0\YurtOtomasyonu1.0\obj\Debug\YurtOtomasyonu1._0.login.KoduDogrula.resources

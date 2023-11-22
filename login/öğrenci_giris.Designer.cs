@@ -98,6 +98,7 @@
             this.SFRM_UNTM.TabIndex = 14;
             this.SFRM_UNTM.TabStop = true;
             this.SFRM_UNTM.Text = "Şifremi Unuttum";
+            this.SFRM_UNTM.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.SFRM_UNTM_LinkClicked);
             // 
             // YNKYT
             // 
